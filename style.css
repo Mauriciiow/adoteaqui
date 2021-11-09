@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #e7f0c0;
+    background: url(https://thumbs.dreamstime.com/b/vector-pet-pattern-seamless-background-illustration-114149143.jpg);
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
@@ -28,11 +28,11 @@ body{
     border: 2px solid white;
     padding: 15px;
     border-radius: 0px 20px;
-    background-color: #e7f0c1;
+    background-color: #000000;
 }
 
 .logo a {
-    color: black;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -45,7 +45,7 @@ body{
     border: 2px solid white;
     padding: 15px;
     border-radius: 0px 20px;
-    background-color: #e7f0c0;
+    background-color: #000000;
    
     
  
@@ -53,7 +53,7 @@ body{
 
 .navegacao a{
     font-size: 30px;
-    color: black;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -85,59 +85,28 @@ body{
     transform: scale(1.2);
 }
 
-.containerFotos{
-margin-top: 5px;
- border-radius: 2px;
-  background-color: #e7f0c0;
-  width: 100%;
-  display: flex;
-  align-items: center;
- 
-
-    
-}
-
-.coluna1{
-    width: 20%;
-    height: max-content;
-    display: flex;
-    flex-direction: column;
-    margin-right: 10% ;
-    margin-left: 10%;
-    
-}
-
-
-.coluna2{
-    width: 20%;
-    height: max-content;
-    display: flex;
-    flex-direction: column;
-    margin-right: 10%;
-    margin-left: 10%;
-
-   
-}
-
-
 
 .fotos{
-    width: 60%;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border: 10px solid #e7f0c0;;
+    justify-content: center;
+    align-items: center;
+    
     
  
 }
 
 .fotos img {
-    width:280px;
-    border: 5px solid #cedd8c;;
+    width: 20%;
+    border: 5px solid #000000;;
     border-radius: 5px;
     margin-bottom: 10px;
-   
+    margin-top: 40px;
+    margin-right: 10px;
+
 }
 
 .fotos img:hover{
@@ -160,9 +129,6 @@ margin-top: 5px;
         justify-content: center;
         
         
-        
-        
-       
     }
     .logo{
         padding: 8px;
@@ -183,17 +149,21 @@ margin-top: 5px;
     }
     
     .fotos{
-        flex-direction: column;
+       width: 100%;
+       flex-direction: column;
        margin: auto;
       
         
     }
-   
-    .containerFotos {
-        margin-left: 0;
+
+    .fotos img {
+        width: 60%;
         
        
     }
+
+
+
   
 }
 
