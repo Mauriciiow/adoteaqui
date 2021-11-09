@@ -102,7 +102,8 @@ margin-top: 5px;
     height: max-content;
     display: flex;
     flex-direction: column;
-   
+    margin-right: 10% ;
+    margin-left: 10%;
     
 }
 
@@ -112,31 +113,22 @@ margin-top: 5px;
     height: max-content;
     display: flex;
     flex-direction: column;
+    margin-right: 10%;
+    margin-left: 10%;
+
    
 }
 
-.coluna3{
-    width: 20%;
-    height: max-content;
-    display: flex;
-    flex-direction: column;
-  
-}
 
-.coluna4{
-    width: 20%;
-    height: max-content;
-    display: flex;
-    flex-direction: column;
- 
-}
 
 .fotos{
+    width: 60%;
+    height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-   justify-content: space-between;
     border: 10px solid #e7f0c0;;
+    
  
 }
 
@@ -145,6 +137,7 @@ margin-top: 5px;
     border: 5px solid #cedd8c;;
     border-radius: 5px;
     margin-bottom: 10px;
+   
 }
 
 .fotos img:hover{
@@ -191,11 +184,15 @@ margin-top: 5px;
     
     .fotos{
         flex-direction: column;
-        align-items: center;
+       margin: auto;
+      
+        
     }
    
     .containerFotos {
         margin-left: 0;
+        
+       
     }
   
 }
