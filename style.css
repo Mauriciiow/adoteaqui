@@ -29,12 +29,14 @@ body{
     padding: 15px;
     border-radius: 0px 20px;
     background-color: #000000;
+    transition: 1s all;
 }
 
 .logo a {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
+    transition: 1s all;
 }
 
 .navegacao{
@@ -56,14 +58,17 @@ body{
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
+    
 }
 
 .navegacao a:hover{
     color: blueviolet;
+    transition: 1s all;
 }
 
 .logo a:hover{
     color: blueviolet;
+    
     
 }
 
@@ -94,31 +99,21 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
-    
  
 }
 
 .fotos img {
     width: 20%;
-    border: 5px solid #000000;;
+    border: 3px solid #000000;;
     border-radius: 5px;
-    margin-bottom: 10px;
-    margin-top: 40px;
+    margin-top: 15px;
     margin-right: 10px;
+    transition: 1s all;
 
 }
 
 .fotos img:hover{
     transform: scale(1.2);
-}
-
-.textinho{
-    width: 700px;
-    position: absolute;
-    left: 50%;
-    bottom: 70%;
-   
 }
 
 @media (max-width: 700px) {
@@ -162,19 +157,27 @@ body{
        
     }
 
-
-
-  
 }
 
-
-
-@media (max-width: 1800px) {
-    .textinho{
-        display: none;
-       
-    }
-    
-   
-  
+.icones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 40%;
 }
+
+.rodape{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top:1px solid rgb(209, 206, 209);
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px black;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
