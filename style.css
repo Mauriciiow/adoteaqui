@@ -182,12 +182,7 @@ body{
         
     }
     .logo{
-        padding: 8px;
-        margin-right: 50px;
-        display: flex;
-        margin-bottom: 10px;
-        justify-content: center;
-        width: 300px;
+      display: none;
          
     }
 
@@ -196,6 +191,8 @@ body{
         align-items: center;
         width: 200px;
         margin-right: 0;
+        border: none;
+        box-shadow: none;
           
     }
     
