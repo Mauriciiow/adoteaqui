@@ -4,10 +4,17 @@
     box-sizing: border-box;
 }
 
+
+
 body{
     background: url(https://thumbs.dreamstime.com/b/vector-pet-pattern-seamless-background-illustration-114149143.jpg);
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    height: 100vh;
+   
+
+    
 }
 
 #container{
@@ -18,8 +25,8 @@ body{
     justify-content: space-between;
     align-items: center;
     border-bottom:1px solid rgb(209, 206, 209);
-    border-radius: 2px;
-    box-shadow: 1px 1px 3px black;
+    
+
     
 }
 
@@ -27,9 +34,21 @@ body{
     margin-left: 40px;
     border: 2px solid white;
     padding: 15px;
+    text-transform: uppercase;
     border-radius: 0px 20px;
     background-color: #000000;
     transition: 1s all;
+}
+
+.texto{
+    width:100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding:20px ;
+    text-align: center;
+    box-shadow: 2px 2px 2px black;
+   
 }
 
 .logo a {
@@ -49,8 +68,7 @@ body{
     border-radius: 0px 20px;
     background-color: #000000;
    
-    
- 
+
 }
 
 .navegacao a{
@@ -91,19 +109,17 @@ body{
 }
 
 
-.fotos{
+.conteudo{
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
- 
+    flex-direction: column;
+
 }
 
-.fotos img {
+.containerFotos img {
     width: 20%;
+    height: auto;
     border: 3px solid #000000;;
     border-radius: 5px;
     margin-top: 15px;
@@ -112,8 +128,48 @@ body{
 
 }
 
-.fotos img:hover{
+.containerFotos{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.containerFotos img:hover{
     transform: scale(1.2);
+}
+
+ 
+.icones img {
+    width: 35px;
+    height: 35px;
+
+}
+
+.rodape{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top:1px solid rgb(209, 206, 209);
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px black;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
 }
 
 @media (max-width: 700px) {
@@ -143,7 +199,7 @@ body{
           
     }
     
-    .fotos{
+    .containerFotos{
        width: 100%;
        flex-direction: column;
        margin: auto;
@@ -151,33 +207,10 @@ body{
         
     }
 
-    .fotos img {
+    .containerFotos img {
         width: 60%;
         
        
     }
 
 }
-
-.icones{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 40%;
-}
-
-.rodape{
-    width: 100%;
-    height: 100px;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-top:1px solid rgb(209, 206, 209);
-    border-radius: 2px;
-    box-shadow: 1px 1px 3px black;
-    font-size: 14px;
-    margin-top: 15px;
-}
-
